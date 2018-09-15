@@ -1,0 +1,37 @@
+{
+  "name": "envoy",
+  "version": "1.0.0",
+  "description": "An ERC20 token with optional delegated transferring.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "debug": "truffle develop --log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aunyks/envoy.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "erc20"
+  ],
+  "author": "Gerald Nash <g.nash.dev@gmail.com> (https://aunyks.com)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aunyks/envoy/issues"
+  },
+  "homepage": "https://github.com/aunyks/envoy#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-bignumber": "^2.0.2",
+    "truffle": "^4.1.14"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^5.2.0",
+    "zeppelin-solidity": "^1.12.0"
+  }
+}
