@@ -52,7 +52,7 @@ Returns true if transaction succeeds.
 - `value` -- The number of tokens to be sent to the recipient.
 - `fee` -- The number of tokens to be sent to the delegate.
 - `nonce` -- A transaction nonce.
-
+___
 **transferPreSignedHashing(  
   address token,  
   address recipient,  
