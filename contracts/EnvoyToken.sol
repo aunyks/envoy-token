@@ -3,7 +3,7 @@ pragma solidity 0.4.24;
 /**
  * @title EnvoyToken
  * @dev Based on https://github.com/ethereum/EIPs/issues/865
- * Copyright (c) Gerald Nash 2018
+ * Copyright (c) 2018 Gerald Nash
  * Licensed under the GNU GPLv3 License
  */
 
