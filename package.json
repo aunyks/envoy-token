@@ -1,6 +1,6 @@
 {
   "name": "envoy-token",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ERC20 token with optional delegated transferring.",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "erc20"
   ],
   "author": "Gerald Nash <g.nash.dev@gmail.com> (https://aunyks.com)",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/aunyks/envoy-token/issues"
   },
