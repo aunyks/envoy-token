@@ -38,12 +38,12 @@ This token contains all functions from the ERC20 standard that track supply, bal
 
 The Envoy token adds two functions from the ERC865 standard: `transferPreSigned()` and `transferPreSignedHashing()`.
 
-**transferPreSigned(
-  bytes signature,
-  address recipient,
-  uint256 value,
-  uint256 fee,
-  uint256 nonce
+**transferPreSigned(  
+  bytes signature,  
+  address recipient,  
+  uint256 value,  
+  uint256 fee,  
+  uint256 nonce  
 )**  
 Returns true if transaction succeeds.
 
@@ -53,12 +53,12 @@ Returns true if transaction succeeds.
 - `fee` -- The number of tokens to be sent to the delegate.
 - `nonce` -- A transaction nonce.
 
-**transferPreSignedHashing(
-  address token,
-  address recipient,
-  uint256 value,
-  uint256 fee,
-  uint256 nonce
+**transferPreSignedHashing(  
+  address token,  
+  address recipient,  
+  uint256 value,  
+  uint256 fee,  
+  uint256 nonce  
 )**  
 Returns the `bytes32` digest of the function parameters after tightly packing.
 
